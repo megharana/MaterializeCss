@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content ="width=device-width,initial scale=1.0">
+	<meta https-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style type="text/css">
+    	nav  .badge{
+    		position: relative;
+    		top:20px;
+    		right:20px;
+    	}
+    	
+    </style>
+            
+	<title>Materialize CSS</title>
+</head>
+<body>
+	<div class="container">
+		<h2>MODALS</h2>
+		<a href="#terms" class="btn orange modal-trigger">Terms and condition</a>
+		<div class="modal" id="terms">
+			<div class="modal-content">
+				<h4>Terms and condition</h4>
+				<p>We have a Gitter chat room set up where you can talk directly with us. Come in and discuss new features, future goals, general problems or questions, or anything else you can think of.</p>
+			<div class="modal-footer">
+				<a href="#" class="modal-close btn orange">Agree and Continue</a>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+			
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>	 
+	<!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+    	$(document).ready(function(){
+    		$('.modal').modal();
+    	})
+    </script>
+
+</body>
+</html>
